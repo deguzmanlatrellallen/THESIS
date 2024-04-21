@@ -1,3 +1,8 @@
+<?php
+include 'db_config.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +35,7 @@
 </nav>
 
 <div class="container">
-    <form class="content-form" action="Booking.php">
+    <form class="content-form" action="book.php">
         <h2>Welcome to Our Hotel</h2>
         <p>Book your stay with us now!</p>
         <input type="submit" value="Book Now" class="book-now-button">
